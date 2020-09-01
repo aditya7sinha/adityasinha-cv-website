@@ -75,8 +75,8 @@ footer{
     bottom:0;
 }
 img{  
-    margin:0px 30px;
-    
+    margin:0px;
+    margin-right:30px;
     width:200px;
     height:200px;
     border-radius: 100px;
