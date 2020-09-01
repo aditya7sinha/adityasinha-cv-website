@@ -9,16 +9,16 @@ body{
 
 .class-for-index{
     
-    background:#d4b44c;
+    background:#BDB76B;
 }
 .class-for-projects{
-    background: #38bbf1;
+    background: #F0E68C;
 }
 .class-for-intern{
-    background: #bbf138;
+    background: #FFEFD5;
 }
 .class-for-contact{
-    background: #e30466;
+    background: #FFFACD;
 }
 header{
     width:100%;
@@ -31,33 +31,33 @@ header{
 }
 .btn{
 padding:10px 24px;
-margin:161px 5px 10px 5px; 
+margin:35px 5px 10px 5px; 
 text-decoration: none;
 background:  #ef5839;
 color:white;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
 }
 
 
 .btn1:hover {
     color: #2e354f;
-    background: #d4b44c;
+    background: #BDB76B;
     transition: 0.8s;
 }
 .btn2:hover{
     color: #2e354f;
-    background: #38bbf1;
+    background: #F0E68C;
     transition: 0.8s;
 }
 .btn3:hover{
     color: #2e354f;
-    background: #bbf138;
+    background: #FFEFD5;
     transition: 0.8s;
 }
 .btn4:hover{
     color: #2e354f;
-    background: #e30466;
+    background: #FFFACD;
     transition: 0.8s;
 }
 
@@ -75,11 +75,11 @@ footer{
     bottom:0;
 }
 img{  
-    margin:15px 15px;
-    border:4px solid #00bfff;
-    width:150px;
-    height:150px;
-    border-radius: 70px;
+    margin:0px 30px;
+    
+    width:200px;
+    height:200px;
+    border-radius: 100px;
 }
 
 .period{
@@ -97,7 +97,7 @@ h2{
     text-decoration: underline;
 }
 .container{
-    width:1000px;
+    width:75%;
     border:2px solid purple;
     margin:30px auto;
     padding:10px 15px;
@@ -115,7 +115,7 @@ h2{
     background:#e78609;
     margin:5px 4px;
     
-    background: #ef5839;
+    background: #AFEEEE;
     color: #2e354f;
     padding:4px 7px;
   }
@@ -133,7 +133,7 @@ h2{
     background:#e78609;
     margin:5px 4px;
     
-    background: #ef5839;
+    background: #AFEEEE;
     color: #2e354f;
     padding:4px 7px;
 }
@@ -171,4 +171,12 @@ h2{
     100%{
         background-color:#ccc;
     }
+}
+header h1{
+    color:white;
+    display: inline-block;
+    margin-left:1000px;
+    margin-top:60px;
+
+   
 }
