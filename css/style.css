@@ -29,11 +29,11 @@ header{
     background: #2e354f;
     min-width: 1300px;
     border:2px solid black;
-
+    margin-bottom:0;
 }
 .btn{
 padding:10px 24px;
-margin:63px 5px 10px 5px; 
+margin:49px 5px 0px 5px; 
 text-decoration: none;
 background:  #ef5839;
 color:white;
@@ -104,7 +104,7 @@ h2{
     border:2px solid purple;
     margin:30px auto;
     padding:10px 15px;
-    
+    font-size: 1em;
     
 }
 .part2{
@@ -177,8 +177,10 @@ h2{
 }
 #name{
     color:white;
+    font-weight: bolder;
     display: inline-block;
-    margin-left:950px;
+    margin-left:850px;
     margin-top:60px;
     margin-right:0; 
+    font-size:x-large;
 }
